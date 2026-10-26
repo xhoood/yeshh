@@ -1,0 +1,26 @@
+
+<html>
+<head>
+  <title>Teste HTA</title>
+  <HTA:APPLICATION
+    ID="TesteHTA"
+    APPLICATIONNAME="Teste HTA"
+    BORDER="dialog"
+    CAPTION="yes"
+    SHOWINTASKBAR="yes"
+    SINGLEINSTANCE="yes"
+  />
+</head>
+<body>
+  <h2>Teste do MSHTA</h2>
+  <p>Se você está vendo esta janela, o teste funcionou!</p>
+
+  <button onclick="alert('Mensagem funcionando corretamente!')">
+    Mostrar mensagem
+  </button>
+
+  <button onclick="window.close()">
+    Fechar
+  </button>
+</body>
+</html>
